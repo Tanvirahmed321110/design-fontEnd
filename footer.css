@@ -35,6 +35,21 @@ footer{
     border-bottom: 1px solid rebeccapurple;
 }
 
+.footer-earn-with-daraz h2{
+    font-size: 19px;
+    margin-top: 28px;
+}
+.footer-earn-with-daraz div{
+    margin-top: -8px;
+}
+.footer-earn-with-daraz p{
+    font-size: 14px;
+}
+.footer-earn-with-daraz a:hover{
+    border-bottom: 1px solid rebeccapurple;
+}
+
+
 
 /* flag container */
 .flag-container{
@@ -71,4 +86,46 @@ footer{
 .app-store-image{
     height: 30px;
     cursor: pointer;
+}
+
+
+/* payment all image */
+.payment-container{
+    margin-top: 30px;
+}
+.payment-container h2{
+    font-size: 18px;
+}
+.payment-all-items {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+.payment-all-items img{
+    width: 45px;
+    height: 30px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 3px;
+    transition: all .3s;
+}
+.payment-all-items img:hover{
+    transform: translate(1.2);
+    width: 38px;
+    cursor: pointer;
+}
+
+/* footer-verify-container */
+.footer-verify-container{
+    margin-top: 25px;
+}
+.footer-verify-container h3{
+    padding-bottom: 15px;
+    color: var(--primaryColor);
+    font-size: 17px;
+    font-weight: 400;
+}
+.footer-verify-container .half p{
+    font-size: 14px;
+    letter-spacing: -.5px;
 }
