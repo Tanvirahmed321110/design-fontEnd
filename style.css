@@ -25,3 +25,20 @@ body{
 .half{
     width: 50%;
 }
+
+
+
+/* page bar stat here */
+.page-bar-wraper{
+    display: flex;
+    padding: 10px 0;
+}
+.page-bar-wraper p{
+    font-size: 14px;
+    color: #a1a09f;
+}
+.page-bar-wraper i{
+    font-size: 14px;
+    margin-right: 8px;
+    margin-left: 6px;
+}

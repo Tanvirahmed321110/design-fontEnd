@@ -9,7 +9,7 @@
 footer{
     width: 100%;
     position: absolute;
-    bottom: 0 !important;
+    /* bottom: 0 !important; */
     background-color: #F5F5F5;
 }
 .footer-wraper{
@@ -136,9 +136,10 @@ footer{
 }
 .footer-img-container img{
     width: 100px;
+    height: 100px;
 }
 .app-store-image{
-    height: 30px;
+    height: 30px !important;
     cursor: pointer;
 }
 .happy-shopping{

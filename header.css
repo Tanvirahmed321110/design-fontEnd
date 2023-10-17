@@ -91,6 +91,8 @@ header{
     font-size: 14px !important;
     margin-left: 12px;
 }
+
+
 /* hover in drop down a tags */
 .help-drop-a{
     position: relative;
@@ -119,6 +121,9 @@ header{
 
 
 /* header top right style here */
+.app{
+    cursor: pointer;
+}
 .header-top-right-wraper{
     background-color: #AD3C04;
     display: flex;
@@ -158,26 +163,27 @@ header{
     position: absolute;
     right: 0px;
     top: 40px;
-    z-index: 11;
+    z-index: 111 !important;
 }
 
 .app-drop-down .main-img img{
     width: 60%;
-    margin-top: 10px;
+    margin-top:0px;
     margin-left: 20%;
     height: 250px;
 }
 .app-drop-down h4{
     text-align: center;
     color: var(--header-bg);
-    margin-top: -15px;
+    font-size: 16px;
+    margin-top:5px;
 }
 
 .header-image-container{
-    margin-top: -20px;
+    margin-top:0px;
     display: flex;
-    gap: 10px;
-    padding: 5px;
+    gap:10px;
+    padding:0 25px;
 }
 .header-image-container img{
     width: 100%;
@@ -188,11 +194,10 @@ header{
     height: 50px !important;
 }
 .qr-img{
-    height: 160px !important;
-    border: 1px solid wheat;
-    padding: 2px;
-    border-radius: 5px !important;
+    height: 100px;
+    width: 80%;
 }
+
 .down-arrow2{
     display: none;
     position: relative;
@@ -313,6 +318,9 @@ header{
 }
 /*========== header top end here  =============*/
 .app:hover .app-drop-down,.app:hover .down-arrow2 {
+    display: block !important;
+}
+.app:hover .app-drop-down{
     display: block !important;
 }
 .help-main:hover .help-drop-down{
