@@ -10,7 +10,7 @@ p{
 :root{
     --header-bg:#F85606;
     --primaryColor : #F85606;
-    --secondery : #b2b6b6;
+    --secondery : #99a0a0;
 }
 li,a{text-decoration: none;list-style: none;}
 
@@ -68,7 +68,7 @@ button{
 }
 .product-buy-container{
     background-color: #ffffff;
-    height: 444px;
+    height: 480px;
     box-shadow: 0 1px 2px rgba(0, 0, 0, .15);
 }
 .product-buy-wraper{
@@ -125,6 +125,7 @@ button{
 }
 
 
+
 /* =====  flash sale ======  */
 .flash-sale-container{
     width:90%;
@@ -166,13 +167,13 @@ button{
 .product-title{
     margin: 10px 5px;
     padding-right:10px;
-
 }
 .product-title h2{
     font-size: 22px;
     color: #212121;
     font-weight: 400;
 }
+
 
 
 /* rating and react  */
@@ -214,13 +215,38 @@ button{
 .share-love{
     display: flex;
     gap: 15px;
+    position: relative;
 }
 .share-love i{
     color: #999999;
     font-size: 20px;
+    cursor: pointer;
 }
-
-
+.share-item{
+    display: none;
+    position: absolute;
+    width: 250px;
+    left: -190px;
+    top: 40px;
+    height: 100px;
+    box-shadow: 0 2px 6px rgba(24, 21, 21, 0.15);
+    background-color: rgb(255, 255, 255);
+}
+.share-love .follow-us{
+    align-items: center;
+    justify-content: center;
+}
+.share-love .icons{
+    margin-top: -24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.share-love .icons p{font-weight: 500;}
+.share-love .icons a{
+    margin-right: 0px;
+    margin-bottom: 10px;
+}
 
 
 /* product price */
@@ -378,14 +404,13 @@ button{
     gap: 15px;
 }
 .free-delivery-container p{
-    font-size: 14px;
+    font-size: 13.5px;
 }
 .free-delivery-container .d-flex div{
     width: 90%;
 }
 .free{
     font-weight: 500;
-    font-size: 16px !important;
 }
 
 /* delivery title */
@@ -412,4 +437,171 @@ button{
 }
 .case-on i{
     color: var(--secondery);
+}
+
+
+
+
+
+/* service container */
+.service-container .delivery-top{
+    padding-bottom: 0;
+}
+.warenty-main{
+    padding:0 15px;
+}
+.service-container h5 a{
+    display:block;
+    margin-top: 15px;
+    text-align: center ;
+    color:var(--secondery);
+    font-weight: 500;
+}
+.warenty-main p{
+    color: var(--secondery);
+}
+.warenty-main div{
+    font-size: 14px;
+}
+.warenty-main .d-flex{
+    align-items:flex-start;
+    gap: 15px;
+}
+.warenty{
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+/*  ===========  product datiles style here  =================== */
+.product-datiels-wraper{
+    box-sizing: border-box;
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 83% 15.5%;
+    gap: 1.5%;
+}
+.product-all-info-container{
+    background-color: white;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .15);
+}
+.product-datiels-wraper li{
+    font-size: 14px;
+    list-style:disc;
+    color: #212121;
+}
+.product-all-info{
+    /* height: 822px; */
+
+}
+.head{
+    padding: 20px;
+    background-color: #fafafa;
+    height: 60px;
+}
+.product-ul-container{
+}
+.product-info-ul-wraper{
+    padding: 20px;
+    width: 85%;
+    margin: 0 auto;
+}
+.head h5{
+    color: #212121;
+    font-weight: 500;
+    font-size: 16px;
+}
+.ul-square-container{
+    padding: 20px 0;
+    padding-bottom: 35px;
+    margin: 0 20px;
+    border-top: 1px solid wheat;
+    border-bottom: 1px solid wheat;
+}
+.ul-square{
+    padding-bottom: 20px;
+    padding-left: 55px;
+}
+.ul-square li{
+    list-style: square;
+}
+
+
+/* product-sku-container  */
+.product-sku-container{
+    padding: 20px;
+    /* margin-bottom: 15px; */
+    overflow-x: scroll;
+}
+.product-sku-wraper h5{
+    color: #212121;
+    font-weight: 500;
+    font-size: 15.5px;
+    margin-bottom: 15px;
+}
+.brand-sku{
+    margin-bottom: 25px;
+}
+.brand-sku p{
+    color: var(--secondery);
+}
+.brand-sku h6{
+    font-weight: 500;
+    font-size: 13.5px;
+    color: #474545;
+}
+.pakage p{
+    color: var(--secondery);
+}
+.pakage div{
+    font-size: 14px;
+    margin-left: 35px;
+}
+
+
+
+
+.rating-and-review-wraper{
+    background-color: white;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .15);
+    margin-top: 15px;
+    width: 100%;
+}
+.rating-and-review-wraper .head h5{font-size: 15px;}
+
+
+
+.ratings-containers{
+    padding: 20px;
+}
+.total-rating{
+    width: 23%;
+}
+.total-rating h1{
+    font-weight: 400;
+    font-size: 45px;
+}
+.total-rating h1 span{
+    font-size: 30px;
+    color: var(--secondery);
+}
+.total-rating p{
+    margin-top: 5px;
+    color: var(--secondery);
+    font-size: 14px;
+}
+.ratings-wraper i{
+    color: #FACA51;
+}
+
+
+
+.same-item{
+    background-color: white;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .15);
+    height: 1000px;
 }
