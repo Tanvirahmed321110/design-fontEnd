@@ -36,7 +36,7 @@ body{
 }
 .page-bar-wraper p{
     font-size: 14px;
-    color: #a1a09f;
+    color: #868584;
 }
 .page-bar-wraper i{
     font-size: 14px;
@@ -210,6 +210,89 @@ body{
 }
 
 
+
+
+/* product price */
+.product-price-container{
+    padding: 10px 5px;
+    padding-bottom: 15px;
+    margin: 15px 21px 15px 4px;
+    border-bottom: 1px solid wheat;
+    
+    border-top: 1px solid wheat;
+}
+.new-price h1{
+    color: var(--header-bg);
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.old-price p{
+    color: #868584;
+    font-size: 14px;
+}
+
+
+/* product quintity */
+.product-quintity{
+    padding: 5px;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.product-quintity p{
+    color: #868584;
+    font-size: 14px;
+}
+.product-quintity button,.product-quintity input{
+    background-color: #EFF0F5;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 5px 8px;
+    color: #999999;
+    font-size: 15px;
+}
+.product-quintity input{
+    font-size: 18px;
+    width: 35px;
+    padding: 3px 0;
+    background-color: transparent;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 2px;
+    margin-left: 8px;
+}
+
+
+/* buy button */
+.buy-button{
+    margin-top: 10px;
+    padding: 5px;
+}
+.buy-button button{
+    width: 200px;
+    padding: 11px 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 2px;
+    font-size: 15px;
+    transition: all .3s;
+}
+#btn-buy{
+    background-color:#2ABBE8;
+}
+#btn-buy:hover{
+    background-color:#20a8da;
+}
+#btn-add-to-cart{
+    background-color: #F85606;
+}
+#btn-add-to-cart:hover{
+    background-color: #c45e2b;
+}
 /* ========== delivery ============ */
 .delivery{
     background-color: #FAFAFA;
