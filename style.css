@@ -4,7 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+p{
+    font-size: 14px;
+}
 :root{
     --header-bg:#F85606;
     --primaryColor : #F85606;
@@ -23,6 +25,7 @@ body{
 }
 .d-flex{
     display: flex;
+    align-items: center;
 }
 .half{
     width: 50%;
@@ -365,6 +368,9 @@ button{
 
 
 /* free delivery container */
+.free-delivery{
+    border-bottom: 1px solid wheat;
+}
 .free-delivery-container{
     padding: 15px;
 }
@@ -380,4 +386,30 @@ button{
 .free{
     font-weight: 500;
     font-size: 16px !important;
+}
+
+/* delivery title */
+.delivery-title{
+    width: 80%;
+    margin-left: 50px;
+    background-color: white;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, .15);
+    padding: 6px;
+    margin-bottom: 15px;
+}
+.delivery-title p{
+    margin-right: 10px;
+    font-size: 13px;
+}
+.delivery-title a{
+    color: blueviolet;
+}
+.case-on{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.case-on i{
+    color: var(--secondery);
 }
