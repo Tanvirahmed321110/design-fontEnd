@@ -8,6 +8,7 @@
 :root{
     --header-bg:#F85606;
     --primaryColor : #F85606;
+    --secondery : #b2b6b6;
 }
 li,a{text-decoration: none;list-style: none;}
 
@@ -26,6 +27,13 @@ body{
 .half{
     width: 50%;
 }
+button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+
 
 
 
@@ -293,7 +301,83 @@ body{
 #btn-add-to-cart:hover{
     background-color: #c45e2b;
 }
+
+
+
+
+
+
+
+
 /* ========== delivery ============ */
 .delivery{
     background-color: #FAFAFA;
+}
+.delivery-container{
+    /* padding: 15px; */
+}
+.delivery-top{
+    display: flex;
+    justify-content:space-between;
+    padding: 15px;
+}
+.delivery-top p{
+    font-size: 13px;
+    color: #868584;
+}
+.delivery-top a{
+    background-color: rgb(236, 234, 230);
+    display: inline-block;
+    padding: 3px 11px;
+    border-radius: 44px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+/* delivery address chance */
+.delivery-address-main{
+    border-bottom: 1px solid rgb(247, 231, 202);
+}
+.delivery-address{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+}
+.delivery-address .d-flex{
+    gap: 12px;
+}
+.delivery-address .d-flex a{
+    margin-top: 3px;
+    color: #999999;
+    font-size: 17px;
+}
+.delivery-address .d-flex p{
+    font-size: 14px;
+}
+.btn-chance{
+    color: blueviolet;
+    cursor: pointer;
+}
+
+
+
+/* free delivery container */
+.free-delivery-container{
+    padding: 15px;
+}
+.free-delivery-container .d-flex{
+    gap: 15px;
+}
+.free-delivery-container p{
+    font-size: 14px;
+}
+.free-delivery-container .d-flex div{
+    width: 90%;
+}
+.free{
+    font-weight: 500;
+    font-size: 16px !important;
 }
