@@ -494,17 +494,13 @@ button{
     list-style:disc;
     color: #212121;
 }
-.product-all-info{
-    /* height: 822px; */
 
-}
 .head{
     padding: 20px;
     background-color: #fafafa;
     height: 60px;
 }
-.product-ul-container{
-}
+
 .product-info-ul-wraper{
     padding: 20px;
     width: 85%;
@@ -570,16 +566,26 @@ button{
     box-shadow: 0 1px 2px rgba(0, 0, 0, .15);
     margin-top: 15px;
     width: 100%;
+    padding-bottom: 25px;
 }
 .rating-and-review-wraper .head h5{font-size: 15px;}
 
 
-
+/* star container */
+.star-container{
+    margin: 8px 0;
+}
 .ratings-containers{
     padding: 20px;
 }
 .total-rating{
     width: 23%;
+}
+.total-rating i{
+    font-size: 25px;
+}
+.total-rating-sub{
+    margin: 10px 0;
 }
 .total-rating h1{
     font-weight: 400;
@@ -597,6 +603,179 @@ button{
 .ratings-wraper i{
     color: #FACA51;
 }
+
+.per-star .d-flex{
+    gap: 25px;
+}
+.per-star {
+    font-size: 14px;
+}
+
+
+/* range  */
+.progress-bar{
+    width: 150px;
+    height: 13px;
+    background-color:rgb(235, 235, 235);
+}
+.progress{
+    height: 100%;
+    background-color: #FACA51;
+}
+.rating-div-5{width: 55%;}
+.rating-div-4{width: 10%;}
+.rating-div-3{width: 10%;}
+.rating-div-2{width: 25%;}
+.rating-div-1{width: 50%;}
+
+/*  user-review-header  */
+.user-review-header{
+    padding: 0 15px ;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-top: 1px solid wheat;
+    border-bottom: 1px solid wheat;
+    height: 50px;
+}
+.user-review-header-name{
+    width: 70%;
+}
+
+
+/* sort-filter-container */
+.sort-filter-container{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.sort-filter-container .half{
+    height: 100%;
+}
+.sort-filter-container .d-flex{
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+.sort,.filter{
+    border-left: 1px solid wheat;
+    cursor: pointer;
+    position: relative;
+}
+.sort p,.filter p{
+    color:var(--secondery)
+}
+/*  filter drop down  */
+.filter-drop-down,.sort-drop-down{
+    position: absolute;
+    left: 0;
+    top: 50px;
+    padding: 10px 0;
+    line-height: 20px;
+    width: 80px;
+    background-color: white;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, .15);
+    text-align: center;
+    font-size: 19px;
+    z-index: 11;
+}
+.filter-drop-down h6 ,.sort-drop-down h6{
+    font-weight: normal;
+    padding-left: 5px;
+}
+.filter-drop-down h6:hover,.sort-drop-down h6:hover{
+    background-color: #cecaca;
+}
+.sort-drop-down{
+    width: 130px;
+    text-align: left;
+}
+
+
+
+
+/* each-user-commnet */
+.each-user-commnet{
+    border-bottom: 1px solid wheat;
+    padding: 15px 0;
+}
+.each-user-commnet i{
+    color: #aff806;
+    font-size: 15px;
+}
+.user-name-and-rating{
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.user-name-and-rating p{
+    color: var(--secondery);
+    font-size: 13px;
+}
+.user-comment-container{
+    padding: 15px;
+}
+
+/* user-comment-all-img */
+.user-comment-all-img{position: relative;
+}
+.user-comment-all-img img{
+    background-color: #e9e5e5;
+    padding:0 11px;
+    width: 90px;    
+    height: 100px;
+    object-fit: cover;
+    margin-top: 15px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: all .8s;
+    z-index: 33;
+}
+.user-comment-all-img img:hover{
+    margin-left: 20px;
+    transform:scale(1.2);
+    height:150px;
+    width:200px;
+    background-color: orange;
+}
+.user-comment-all-img i{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 25px;
+}
+.user-comment-image p{
+    color: var(--secondery);
+    padding-bottom:6px;
+    font-size: 13.5px;
+}
+.users-like{
+    display: flex;
+    justify-content: space-between;
+}
+.users-like i{
+    color: var(--secondery);
+}
+.three-dot{
+    /* width: 10px; */
+    padding-right: 10px;
+    cursor: pointer;
+    position: relative;
+}
+.three-dot-drop-down{
+    width: 100px;
+    position: absolute;
+    right: 5px;
+    padding: 5px;
+    line-height: 25px;
+    background-color: #f0f8f8;
+    border: 1px solid rgb(238, 229, 238);
+    cursor: pointer;
+}
+
+
 
 
 
