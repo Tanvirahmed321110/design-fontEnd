@@ -567,8 +567,10 @@ button{
     margin-top: 15px;
     width: 100%;
     padding-bottom: 25px;
+    margin-bottom: 40px;
 }
 .rating-and-review-wraper .head h5{font-size: 15px;}
+
 
 
 /* star container */
@@ -612,6 +614,7 @@ button{
 }
 
 
+
 /* range  */
 .progress-bar{
     width: 150px;
@@ -641,6 +644,8 @@ button{
 .user-review-header-name{
     width: 70%;
 }
+
+
 
 
 /* sort-filter-container */
@@ -718,6 +723,8 @@ button{
     padding: 15px;
 }
 
+
+
 /* user-comment-all-img */
 .user-comment-all-img{position: relative;
 }
@@ -774,9 +781,32 @@ button{
     border: 1px solid rgb(238, 229, 238);
     cursor: pointer;
 }
+.three-dot-drop-down a{
+    border-bottom: 1px solid orange;
+}
 
 
 
+
+/*========== comment  page container  ============= */
+.page-wraper{
+    padding-right: 10px;
+    width: 235px;
+    margin-left: auto;
+    margin-top: 20px;
+}
+.page-wraper button{
+    background-color: #faf6f6;
+    color: var(--secondery);
+    padding: 12px 12px;
+    border-radius: 2px;
+    cursor: pointer;
+    border: 1px solid wheat;
+}
+.active-page{
+    background-color: #9e9898 !important;
+    color: white !important;
+}
 
 
 .same-item{
