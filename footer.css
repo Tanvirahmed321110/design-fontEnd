@@ -113,6 +113,7 @@ footer{
 
 /* footer-verify-container */
 .footer-verify-container{
+    height: 122px;
     margin-top: 25px;
 }
 .footer-verify-container h3{
@@ -125,7 +126,9 @@ footer{
     font-size: 14px;
     letter-spacing: -.5px;
 }
-
+.dbid{
+    margin-top: -10px;
+}
 
 
 
