@@ -1,0 +1,115 @@
+.small-container{
+    width: 65%;
+    margin: 40px auto;
+}
+.login-head{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+.login-head h5{
+    font-size: 21px;
+    font-weight: 400;
+    color:#212121;
+}
+.login-head small{
+    color: var(--secondery);
+}
+
+
+.login-form-container{
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    gap:80px;
+    justify-content: space-between;
+}
+.reset-password{
+    text-align: right;
+    margin-top: 10px;
+    color: var(--secondery);
+}
+.reset-password a{
+    font-size: 13px;
+    border-bottom: 1px solid rgb(186, 32, 233);
+}
+
+
+.button-container button{
+    width: 84%;
+    padding: 11px ;
+    background-color: orange;
+    margin-top:26px;
+    cursor: pointer;
+    transition: .3s;
+}
+/* hover in button */
+.button-container button:hover{
+    background-color: rgb(226, 71, 15) !important;
+}
+.button-container a{
+    color: white;
+    
+    font-size: 15px;
+}
+.button-container i{
+    padding-right: 10px;
+}
+.button-container small{
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 13px;
+    color: var(--secondery);
+}
+.button-container button:first-child{
+    background-color: #F57224;
+    padding: 14px;
+}
+.button-container button:last-child{
+    background-color: #D34836;
+    margin-top: 15px;
+}
+.login-facebook{
+    margin-top: 15px !important;
+    background-color: #3B5998 !important;
+}
+
+
+
+
+
+/* ============ registion =============  */
+.button-container input{
+    width: 90% !important;
+}
+.button-container button{
+    width: 90%;
+}
+.checkbox-container{
+    margin-top: 12px;
+    display: flex;
+    gap: 15px;
+    width: 90% !important;
+    justify-content: space-between !important;
+}
+.checkbox-container input{
+    text-align: left;
+    width: 10% !important;
+}
+.registion-terms{
+    width:90%;
+}
+.registion-terms a{
+    color: #3B5998;
+    font-size: 13px;
+}
+.button-container .d-flex{
+    gap: 25px;
+}
+.button-container .d-flex button{
+    padding: 12px;
+    border-radius: 4px;
+}
+.button-container .d-flex button a{
+    font-size: 16px;
+}

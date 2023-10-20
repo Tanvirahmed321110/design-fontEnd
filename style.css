@@ -35,6 +35,32 @@ button{
     outline: none;
     background-color: transparent;
 }
+.h5{
+    color: #212121;
+    font-size: 16px;
+    font-weight: 500;
+}
+label{
+    font-size: 14px;
+    color: #383838;
+    letter-spacing: -.5px;
+    font-weight: 400;
+
+}
+.login-form-container input{
+    margin-top: 7px;
+    padding: 10px 10px;
+    border: none;
+    outline: none;
+    border: 1px solid rgb(243, 240, 233);
+    width:100%;
+}
+form input::placeholder{
+    color: #bebbb8;
+    font-size: 13px;
+}
+
+
 
 
 
@@ -342,9 +368,6 @@ button{
 .delivery{
     background-color: #FAFAFA;
 }
-.delivery-container{
-    /* padding: 15px; */
-}
 .delivery-top{
     display: flex;
     justify-content:space-between;
@@ -482,8 +505,8 @@ button{
     box-sizing: border-box;
     margin-top: 15px;
     display: grid;
-    grid-template-columns: 83% 15.5%;
-    gap: 1.5%;
+    grid-template-columns: 82.4% 16.5%;
+    gap: 1.1%;
 }
 .product-all-info-container{
     background-color: white;
@@ -493,12 +516,6 @@ button{
     font-size: 14px;
     list-style:disc;
     color: #212121;
-}
-
-.head{
-    padding: 20px;
-    background-color: #fafafa;
-    height: 60px;
 }
 
 .product-info-ul-wraper{
@@ -798,10 +815,14 @@ button{
 .page-wraper button{
     background-color: #faf6f6;
     color: var(--secondery);
-    padding: 12px 12px;
+    padding: 12px 10px;
     border-radius: 2px;
     cursor: pointer;
     border: 1px solid wheat;
+    font-size: 14px;
+}
+.page-wraper button:hover{
+    background-color: #d1d4d4;
 }
 .active-page{
     background-color: #9e9898 !important;
@@ -809,8 +830,106 @@ button{
 }
 
 
+
+
+
+/* ======== same item show ================ */
 .same-item{
     background-color: white;
     box-shadow: 0 1px 2px rgba(0, 0, 0, .15);
-    height: 1000px;
+    margin-bottom: 40px;
+}
+.head{
+    padding: 20px;
+    background-color: #fafafa;
+    height: 60px;
+}
+.head-same-item{
+    padding: 20px 0;
+    background-color: #fafafa;
+    height:60px;
+    margin-bottom: 20px;
+}
+
+.head-same-item h5{
+    text-align: center;
+    font-size: 16px;
+    color: #212121;
+    font-weight: 500;
+}
+.same-each-item{
+    margin-top: 17px;
+    height: 260px;
+    border-bottom: 1px solid rgb(245, 236, 218);
+    transition: all .3s;
+}
+.same-each-item:hover{
+    cursor: pointer;
+    box-shadow: 0 6px 17px rgba(0, 0, 0, .15);
+}
+.same-each-item img{
+    display: block;
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+}
+.same-each-footer{
+    padding: 10px;
+}
+.same-each-footer p{
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+.same-each-footer h3{
+    color: #31c504;
+    font-size: 19px;
+    font-weight: normal;
+    
+}
+.same-each-footer i{
+    color: #31c504;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+/* people also viewed */
+.people-viewed-item-wraper{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin-bottom: 40px;
+    width: 82.4%;
+    gap: 5px;
+}
+.people-viewed-item-wraper .same-each-item{
+    background-color: white;
+    border: 1px solid rgb(243, 234, 217);
+    border-radius: 3px;
+}
+
+
+
+/* message  */
+.message-container{
+    position: fixed;
+    bottom:50px;
+    background-color: white;
+    box-shadow: 8px 14px 39px rgba(24, 21, 21, 0.15);
+    right: 0;
+    font-size: 13px;
+    padding: 6px 5px;
+    text-align: center;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.message-container i{
+    font-size: 18px;
+    color: var(--secondery);
 }
