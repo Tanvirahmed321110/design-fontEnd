@@ -1,0 +1,113 @@
+
+.dropDown-and-slider {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height:345px;
+}
+
+.mega-drop-down{
+    padding: 10px 0;
+    width: 250px;
+    background-color: white;
+    border-radius: 10px;
+}
+.mege-drop-main{
+    display: flex;
+    gap:5px;
+    margin: 1px 0;
+    align-items: center;
+    padding: 3px 15px;
+}
+.mege-drop-main i{
+    font-size: 15px;
+    background-color: rgb(236, 238, 238);
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    margin-right: 10px;
+    color: var(--secondery);
+    text-align: center;
+    padding: 4px;
+}
+.mege-drop-main p{
+    color: #97817a;
+    font-size: 13.5px;
+}
+.mege-drop-main:hover{
+    background-color: #F5F5F5;
+    cursor: pointer;
+}
+.mege-drop-main:hover p{
+    color: rgb(211, 180, 7);
+}
+
+
+
+
+
+
+
+.slider{
+   width: 830px;
+}
+
+.slider img{
+    width: 100% ;
+    height: 350px ;
+    border-radius: 10px;
+}
+.slider-img{
+    position: relative;
+}
+#btn-slider-pre,#btn-slider-next{
+    width: 50px;
+    padding: 5px 0;
+    background-color:burlywood;
+    font-size: 22px;
+    cursor: pointer;
+}
+#btn-slider-pre{
+    position: absolute;
+    left: 0;
+    top: 44%;
+}
+#btn-slider-next{
+    position: absolute;
+    right: 0;
+    top: 44%;
+}
+
+
+
+
+
+
+
+
+
+/* ============== gaid =============- */
+.gaid-wraper{
+    display: flex;
+    gap: 40px;
+    margin: 35px 0;
+    justify-content: center;
+}
+.gaid-wraper a{
+    display: flex;
+    gap: 10px;
+    border-right: 1px solid orange;
+    padding-right: 15px;
+}
+.gaid-wraper a:hover h5{
+    color: rgb(73, 87, 221);
+}
+.gaid-wraper a:last-child{
+    border-right: 0;
+}
+.gaid-wraper h5,i{
+    color: #584949;
+    font-weight: 600;
+    font-size:16;
+}
