@@ -111,3 +111,99 @@
     font-weight: 600;
     font-size:16;
 }
+
+
+
+
+/* ========== flas sale items ============= */
+.flas-item-and-header{
+    margin-top: 10px;
+    background-color: white;
+    padding-bottom: 15px;
+}
+.products-flas-sale-wraper{
+    margin:45px auto ;
+}
+.flas-sale-sub-header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 60px;
+    border-bottom: 1px solid rgb(179, 117, 238);
+}
+.flas-sale-end-time-container{
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    width: 35%;
+    gap: 60px;
+}
+.flas-sale-end-time-container h6{
+    color: #F85806;
+    font-size: 15px;
+    font-weight: normal
+}
+.flas-sale-end-time{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.flas-sale-end-time div{
+    padding: 5px 9px;
+    background-color: #FF6801;
+    color: white;
+    border-radius: 3px;
+}
+
+.flas-shop-more-btn-container{
+    padding-right: 10px;
+}
+.flas-shop-more-btn-container button{
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 3px;
+    border: 1px solid orangered;
+    color: #e47239;
+    cursor: pointer;
+}
+.flas-shop-more-btn-container button:hover {
+    background-color: blueviolet;
+    transition: background-color .5s ease-in-out;
+    color: white;
+}
+
+
+
+
+
+/*======== flas-sale-all-items-wraper ===============*/
+.flas-sale-all-items-wraper{
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+.flas-sale-all-items-wraper img{
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+}
+.flas-sale-item{
+    width: 17% !important;
+    cursor: pointer;
+    padding-bottom: 10px;
+}
+.flas-sale-item:hover{
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+}
+.flas-sale-item h3{
+    color: #F85806;
+    font-weight: 500;
+}
+.flas-sale-item h3,p{
+    padding-left: 6px;
+    padding-top: 6px;
+}
+.old-price{
+    color: #8d8888;
+    font-size: 13px;
+}
