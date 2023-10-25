@@ -1,3 +1,9 @@
+section h3{
+    color:#424242;
+    font-size: 23px;
+    font-weight: normal;
+}
+
 
 .dropDown-and-slider {
     display: flex;
@@ -198,12 +204,78 @@
 .flas-sale-item h3{
     color: #F85806;
     font-weight: 500;
+    font-size: 20px;
 }
-.flas-sale-item h3,p{
+.flas-sale-item h3,.flas-sale-item p{
     padding-left: 6px;
     padding-top: 6px;
 }
 .old-price{
     color: #8d8888;
     font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+/* ===============  catagoris items  =================== */
+.catagoris-wraper{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    margin-top: 15px;
+    margin-bottom: 35px;
+    background-color: white;
+}
+.catagoris-item {
+    padding: 10px 5px 10px 5px;
+    border-right:1px solid rgb(175, 174, 171);
+    border-bottom:1px solid rgb(163, 162, 160);
+    text-align: center;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+}
+.catagoris-item:hover{
+    background-color: rgb(238, 238, 195);
+}
+.catagoris-item img{
+    margin-left: auto;
+    width: 80%;
+    height: 100px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+/* ======  product  ============ */
+.products-wraper{
+    display:flex;
+    gap: 15px;
+}
+.product {
+    width: 20%;
+    background-color: white;
+    padding: 10px;
+}
+.product h3{
+    color: #e47239;
+}
+.product i{
+    font-size: 12px;
+    color: #d4f325;
+}
+.product img{
+    width: 100%;
+}
+.product .product-info{
+    padding: 0px;
+    text-align: left;
+    background-color: orange;
 }
