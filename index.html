@@ -94,6 +94,15 @@
                             <div class="input-item-search-main">
                                 <input type="text" placeholder="Search in Daraz">
                                 <button class="btn-search-item"><i class="fa-solid fa-magnifying-glass"></i></button>
+                                    <!-- search drop down -->
+                                    <div class="search-drop-down">
+                                        <div class="search-drop-down-clear">
+                                            <p>Search History</p>
+                                            <button>Clear</button>
+                                        </div>
+                                        <h6><a href="#">Mouse</a></h6>
+                                    </div>
+                                    <!-- search drop down -->
                             </div>
                             <div class="login-container">
                                 <div class="login-bar-main"><a href="login.html"><i class="fa-solid fa-user"></i> Login</a></div> 
@@ -252,9 +261,9 @@
                                                 <div class="product-quintity">
                                                     <p>Quintity </p>
                                                     <div>
-                                                        <button><i class="fa-solid fa-minus"></i></button>
-                                                        <input type="number" value="1">
-                                                        <button><i class="fa-solid fa-plus"></i></button>
+                                                        <button id="btn-qutntity-minus"><i class="fa-solid fa-minus"></i></button>
+                                                        <input id="input-quintity" type="number" value="1">
+                                                        <button id="btn-qutntity-plus"><i class="fa-solid fa-plus"></i></button>
                                                     </div>
                                                 </div>
                                                 <!-- product quintity -->
@@ -1089,6 +1098,6 @@
     
     
     
-    <script src="app.js"></script>
+    <script src="product.js"></script>
 </body>
 </html>

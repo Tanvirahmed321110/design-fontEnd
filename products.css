@@ -295,3 +295,17 @@ section h3{
 .product-info del,.product-info small, .product-info span{
     color: #8d8888;
     font-size: 12px;}
+
+.btn-load-more-container{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.btn-product-load-more{
+    display: inline-block;
+    text-align: center  ;
+    width: 170px;
+    padding: 10px 2px;
+    color: #F85806;
+    border: 1px solid #FF6801;
+    cursor: pointer;
+}

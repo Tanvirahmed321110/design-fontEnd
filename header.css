@@ -227,6 +227,30 @@ header{
     position: relative;
     width: 73%;
 }
+.search-drop-down{
+    position: absolute;
+    width: 680px;
+    background-color: white;
+    top: 39px;
+    z-index: 11;
+    color:#AD3C04;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    padding: 13px;
+    font-size: 17px;
+    /* height: 355px; */
+}
+.search-drop-down-clear{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    color: #b4a298;
+}
+.search-drop-down-clear button{
+    color: #b8a79e;
+    cursor: pointer;
+}
+
+
 .input-item-search-main input {
     padding: 10px 15px;
     border: none;
